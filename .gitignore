@@ -1,0 +1,8 @@
+# Environment
+.env
+
+# Dependencies
+vendor/
+
+# Go
+go.sum
