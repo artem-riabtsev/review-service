@@ -23,7 +23,7 @@ docker-compose up -d && goose -dir migrations postgres "user=review_user passwor
 curl http://localhost:8080/health
 sslmode=disable" up && go run cmd/main.go
 ```
-# Ответ: {"status": "ok"}
+ Ответ: {"status": "ok"}
 
 ## Основные эндпоинты
 
